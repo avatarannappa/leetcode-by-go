@@ -29,9 +29,9 @@ func checkValidString(s string) bool {
 	return len(leftParentheses) == 0
 }
 
-func main() {
-	// Example usage
-	s := "(*))"
-	result := checkValidString(s)
-	println(result) // Output: true
-}
+//func main() {
+//	// Example usage
+//	s := "(*))"
+//	result := checkValidString(s)
+//	println(result) // Output: true
+//}
